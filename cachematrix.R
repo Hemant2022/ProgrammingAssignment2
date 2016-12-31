@@ -3,7 +3,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     inverse <- NULL
-    st <- function(a){
+    set <- function(a){
     x <<- a
     inverse <<- NULL
   }
